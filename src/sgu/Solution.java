@@ -5,12 +5,13 @@ import java.util.*;
 
 import static java.util.stream.Stream.of;
 
+// Задача 2056 с http://acm.sgu.ru/lang/
 public class Solution {
 
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        PrintWriter writer = new PrintWriter(System.out);
+//        PrintWriter writer = new PrintWriter(System.out);
 
         String input = "", line = null;
         while ((line = scanner.nextLine()).length() > 0) {
