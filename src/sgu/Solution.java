@@ -1,21 +1,17 @@
 package sgu;
 
-import java.io.PrintWriter;
 import java.util.*;
-
-import static java.util.stream.Stream.of;
 
 // Задача 2056 с http://acm.sgu.ru/lang/
 public class Solution {
 
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-//        PrintWriter writer = new PrintWriter(System.out);
-
         String input = "", line = null;
-        while ((line = scanner.nextLine()).length() > 0) {
-            input += line + "\n";
+//        while ((line = scanner.nextLine()).length() > 0) {
+        while (scanner.hasNext()) {
+//            input += line + "\n";
+            input += scanner.nextLine() + "\n";
         }
         String delims = "[ \n]+";
         String[] words = input.split(delims);
@@ -41,6 +37,4 @@ public class Solution {
         }
 
     }
-
-
 }
