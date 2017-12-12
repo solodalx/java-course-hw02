@@ -28,7 +28,7 @@ public class SolutionTest {
     @Test
     public void test1() throws Exception {
 
-        String input = "Sebastian Vettel is a German Formula One racing driver currently driving for Red Bull Racing\n\n";
+        String input = "Sebastian Vettel is a German Formula One racing driver currently driving for Red Bull Racing\n";
         System.setIn(new java.io.ByteArrayInputStream(input.getBytes()));
 
         Solution.main(null);
@@ -40,7 +40,7 @@ public class SolutionTest {
     public void test2() throws Exception {
 
 //        String input = "a aa aaa aaaa\na aa aaa bbbb\n\n";
-        String input = "aaa aa a aaaa\na aa aaa bbbb\n\n";
+        String input = "aaa aa a aaaa\na aa aaa bbbb\n";
         System.setIn(new java.io.ByteArrayInputStream(input.getBytes()));
 
         Solution.main(null);
